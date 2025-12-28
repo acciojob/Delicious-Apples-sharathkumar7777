@@ -1,1 +1,97 @@
 /* your code here */
+
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #1de783;
+    margin: 0;
+    padding: 40px;
+}
+
+.page {
+    display: flex;
+    justify-content: center;
+}
+
+.product {
+    background: #ffffff;
+    display: flex;
+    padding: 30px;
+    border-radius: 6px;
+    width: 800px;
+}
+
+/* PRODUCT PHOTO */
+.product__photo {
+    margin-right: 30px;
+}
+
+.photo-container {
+    width: 300px;
+}
+
+.photo-main img {
+    width: 100%;
+    border-radius: 6px;
+}
+
+.photo-album ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.photo-album li {
+    margin-right: 5px;
+}
+
+.photo-album img {
+    width: 60px;
+    border: 1px solid #ccc;
+}
+
+/* PRODUCT INFO */
+.product__info {
+    flex: 1;
+}
+
+.price {
+    color: red;
+    font-size: 28px;
+    margin: 15px 0;
+}
+
+/* VARIANTS */
+.variant ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.variant li {
+    margin-right: 10px;
+}
+
+.variant a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* DESCRIPTION */
+.description ul {
+    padding-left: 20px;
+}
+
+/* BUTTON */
+.add-to-cart {
+    margin-top: 20px;
+    padding: 12px 20px;
+    background: red;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
