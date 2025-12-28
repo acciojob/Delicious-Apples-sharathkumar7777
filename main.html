@@ -7,69 +7,61 @@
 </head>
 <body>
 
-<div class="page">
+<div class="product">
 
-    <!-- MAIN LAYOUT -->
-    <div class="product">
+    <!-- PRODUCT PHOTO -->
+    <div class="product__photo">
+        <div class="photo-container">
 
-        <!-- PRODUCT PHOTO -->
-        <div class="product__photo">
-
-            <!-- PHOTO CONTAINER -->
-            <div class="photo-container">
-
-                <!-- MAIN PHOTO -->
-                <div class="photo-main">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/1/15/Red_Apple.jpg" alt="Apple">
-                </div>
-
-                <!-- PHOTO ALBUM -->
-                <div class="photo-album">
-                    <ul>
-                        <li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302064/codepen/delicious-apples/green-apple2.png"></li>
-                        <li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302752/codepen/delicious-apples/yellow-apple.png"></li>
-                        <li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302427/codepen/delicious-apples/orange-apple.png"></li>
-                        <li><img src="https://upload.wikimedia.org/wikipedia/commons/1/15/Red_Apple.jpg"></li>
-                    </ul>
-                </div>
-
+            <!-- MAIN PHOTO -->
+            <div class="photo-main">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/1/15/Red_Apple.jpg" alt="Apple">
             </div>
-        </div>
 
-        <!-- PRODUCT DETAILS -->
-        <div class="product__info">
-
-            <h1>Delicious Apples</h1>
-
-            <!-- PRICE -->
-            <div class="price">$7.93</div>
-
-            <!-- VARIANTS -->
-            <div class="variant">
-                <h3>SELECT A COLOR</h3>
+            <!-- PHOTO ALBUM (REQUIRED) -->
+            <div class="photo-album">
                 <ul>
-                    <li><a href="#">Green</a></li>
-                    <li><a href="#">Yellow</a></li>
-                    <li><a href="#">Orange</a></li>
-                    <li><a href="#">Red</a></li>
+                    <li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302064/codepen/delicious-apples/green-apple2.png"></li>
+                    <li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302752/codepen/delicious-apples/yellow-apple.png"></li>
+                    <li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302427/codepen/delicious-apples/orange-apple.png"></li>
+                    <li><img src="https://upload.wikimedia.org/wikipedia/commons/1/15/Red_Apple.jpg"></li>
                 </ul>
             </div>
 
-            <!-- BENEFITS -->
-            <div class="description">
-                <h3>BENEFITS</h3>
-                <ul>
-                    <li>Apples are nutritious</li>
-                    <li>Good for weight loss</li>
-                    <li>Improve bone health</li>
-                    <li>Lower risk of diabetes</li>
-                </ul>
-            </div>
-
-            <!-- ADD TO CART -->
-            <button class="add-to-cart">ADD TO CART</button>
-
         </div>
+    </div>
+
+    <!-- PRODUCT INFO -->
+    <div class="product__info">
+
+        <h1>Delicious Apples</h1>
+
+        <!-- PRICE -->
+        <div class="price">$7.93</div>
+
+        <!-- VARIANT (STRICT STRUCTURE) -->
+        <div class="variant">
+            <ul>
+                <li><img src="https://upload.wikimedia.org/wikipedia/commons/f/f4/Green_Apple.jpg"></li>
+                <li><img src="https://upload.wikimedia.org/wikipedia/commons/2/25/Yellow_Apple.jpg"></li>
+                <li><img src="https://upload.wikimedia.org/wikipedia/commons/7/7b/Apple_Orange.jpg"></li>
+                <li><img src="https://upload.wikimedia.org/wikipedia/commons/1/15/Red_Apple.jpg"></li>
+            </ul>
+        </div>
+
+        <!-- BENEFITS -->
+        <div class="description">
+            <h3>BENEFITS</h3>
+            <ul>
+                <li>Apples are nutritious</li>
+                <li>Good for weight loss</li>
+                <li>Improve bone health</li>
+                <li>Lower diabetes risk</li>
+            </ul>
+        </div>
+
+        <!-- ADD TO CART -->
+        <button class="add-to-cart">ADD TO CART</button>
 
     </div>
 
